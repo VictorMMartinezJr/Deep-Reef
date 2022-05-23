@@ -1,0 +1,15 @@
+.hero {
+  background: url("../../assets/jellyfish-bg.jpeg");
+  background-color: rgba(0, 0, 0, 0.7);
+  background-blend-mode: multiply;
+  background-size: cover;
+  background-position: center;
+  height: -moz-available; /* Mozilla-based browsers */
+  height: -webkit-fill-available; /* Webkit based browsers */
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+}
