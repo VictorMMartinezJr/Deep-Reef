@@ -1,7 +1,11 @@
 module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        deepwater: 'url("./assets/deepwater.jpeg")',
+      },
+    },
   },
   plugins: [],
 };

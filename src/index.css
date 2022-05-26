@@ -1,3 +1,12 @@
 @tailwind base;
 @tailwind components;
+.overlay {
+  @apply absolute inset-0 bg-black bg-opacity-40;
+}
+.blur-before {
+  @apply before:w-full before:h-[50px] before:absolute before:top-0 before:bg-gradient-to-t before:to-black before:from-transparent;
+}
+.after-blur {
+  @apply after:absolute after:w-full after:h-[50px] after:bottom-0 after:bg-gradient-to-b after:to-black after:from-transparent;
+}
 @tailwind utilities;

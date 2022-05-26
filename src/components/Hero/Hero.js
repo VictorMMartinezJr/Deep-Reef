@@ -6,7 +6,7 @@ const Hero = () => {
   const [navActive, setNavActive] = useState(false);
 
   return (
-    <section className="hero">
+    <section className="hero after-blur">
       <Navbar navActive={navActive} setNavActive={setNavActive} />
       <div
         className={`${
