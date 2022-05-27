@@ -9,4 +9,7 @@
 .after-blur {
   @apply after:absolute after:w-full after:h-[50px] after:bottom-0 after:bg-gradient-to-b after:to-black after:from-transparent;
 }
+.custom-card {
+  @apply h-[300px] w-[350px] p-[2rem] my-4 rounded-xl bg-gray-900 bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-40 border border-gray-800 md:mx-2 xl:mx-6;
+}
 @tailwind utilities;
