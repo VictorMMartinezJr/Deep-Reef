@@ -3,7 +3,10 @@ import { RoadmapData } from "./CardData";
 
 const Roadmap = () => {
   return (
-    <section className="roadmap h-auto flex flex-col items-center text-white bg-gradient-to-b from-[#061d37] to-[#000] relative after:absolute after:left-0 after:ml-5 after:h-[90%] after:w-[1px] after:bg-blue-700 after:bottom-0 lg:after:left-auto">
+    <section
+      className="roadmap h-auto flex flex-col items-center text-white bg-gradient-to-b from-[#061d37] to-[#000] relative after:absolute after:left-0 after:ml-5 after:h-[90%] after:w-[1px] after:bg-blue-700 after:bottom-0 lg:after:left-auto"
+      id="roadmap"
+    >
       <div className="overlay"></div> {/* Used to darken gradient background*/}
       <h2 className="z-[2] text-4xl my-20 font-bold">ROADMAP & TOKENOMICS</h2>
       <div className="cards-container z-[2] flex flex-col justify-center items-start w-[80%] lg:max-w-[70%]">

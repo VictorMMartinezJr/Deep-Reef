@@ -48,17 +48,23 @@ const Navbar = ({ navActive, setNavActive }) => {
             : "transform translate-x-[100%] transition-transform duration-300"
         } lg:static lg:flex-row lg:bg-none lg:bg-opacity-0 lg:backdrop-blur-0 lg:translate-x-0 lg:items-center lg:w-auto xl:mr-16`}
       >
-        <li className=" text-xl font-bold my-4 py-4 mr-8 cursor-pointer lg:text-base">
-          How it works?
+        <li
+          className=" text-xl font-bold my-4 py-4 mr-8 cursor-pointer lg:text-base"
+          onClick={() => setNavActive(false)}
+        >
+          <a href="#howitworks">How it works?</a>
         </li>
-        <li className=" text-xl font-bold my-4 py-4 mr-8 cursor-pointer lg:text-base">
-          Roadmap and tokenomics
+        <li
+          className=" text-xl font-bold my-4 py-4 mr-8 cursor-pointer lg:text-base"
+          onClick={() => setNavActive(false)}
+        >
+          <a href="#roadmap">Roadmap and tokenomics</a>
         </li>
-        <li className=" text-xl font-bold my-4 py-4 mr-8 cursor-pointer lg:text-base">
-          Charity
-        </li>
-        <li className=" text-xl font-bold my-4 py-4 mr-8 cursor-pointer lg:text-base">
-          How to buy?
+        <li
+          className=" text-xl font-bold my-4 py-4 mr-8 cursor-pointer lg:text-base"
+          onClick={() => setNavActive(false)}
+        >
+          <a href="#howtobuy">How to buy?</a>
         </li>
       </ul>
     </nav>

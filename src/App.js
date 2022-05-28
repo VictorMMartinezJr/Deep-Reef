@@ -1,4 +1,5 @@
 import "./App.css";
+import Footer from "./components/Footer";
 import Hero from "./components/Hero/Hero.js";
 import HowItWorks from "./components/HowItWorks";
 import HowToBuy from "./components/HowToBuy";
@@ -11,6 +12,7 @@ function App() {
       <HowItWorks />
       <Roadmap />
       <HowToBuy />
+      <Footer />
     </div>
   );
 }
