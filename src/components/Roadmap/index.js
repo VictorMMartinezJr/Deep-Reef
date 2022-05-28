@@ -8,7 +8,9 @@ const Roadmap = () => {
       id="roadmap"
     >
       <div className="overlay"></div> {/* Used to darken gradient background*/}
-      <h2 className="z-[2] text-4xl my-20 font-bold">ROADMAP & TOKENOMICS</h2>
+      <h2 className="z-[2] text-4xl my-20 font-bold text-center">
+        ROADMAP & TOKENOMICS
+      </h2>
       <div className="cards-container z-[2] flex flex-col justify-center items-start w-[80%] lg:max-w-[70%]">
         {/* Show cards with data from the CardData file */}
         {RoadmapData.map((card, i) => {

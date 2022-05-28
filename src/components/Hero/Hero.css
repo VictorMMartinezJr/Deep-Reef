@@ -6,7 +6,7 @@
   background-position: center;
   height: -moz-available; /* Mozilla-based browsers */
   height: -webkit-fill-available; /* Webkit based browsers */
-  height: 100vh;
+  min-height: 100vh;
   width: 100%;
   display: flex;
   flex-direction: column;
