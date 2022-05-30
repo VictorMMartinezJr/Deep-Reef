@@ -8,7 +8,9 @@ const HowItWorks = () => {
       id="howitworks"
     >
       <div className="overlay"></div> {/* Used to darken gradient background*/}
-      <h2 className="z-[2] text-4xl my-20 font-bold">HOW IT WORKS?</h2>
+      <h2 className="z-[2] text-2xl mt-20 mb-8 font-bold sm:text-3xl">
+        HOW IT WORKS?
+      </h2>
       <div className="cards-container z-[2] flex flex-col justify-center items-center md:flex-row md:flex-wrap w-[80%]">
         {/* Show cards with data from the CardData file */}
         {HowItWorksData.map((card) => {

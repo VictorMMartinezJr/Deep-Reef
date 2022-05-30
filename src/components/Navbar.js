@@ -6,7 +6,9 @@ const Navbar = ({ navActive, setNavActive }) => {
       {/* Company Logo & Name */}
       <div className="ml-8 flex items-center z-10 xl:ml-16">
         <img src={jellyfish} alt="" className="h-8" />
-        <h2 className="ml-3 font-medium tracking-wide text-lg">DEEP REEF</h2>
+        <h2 className="hidden ml-3 font-medium tracking-wide text-lg">
+          DEEP REEF
+        </h2>
       </div>
 
       {/* Menu Burger */}

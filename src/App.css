@@ -10,7 +10,5 @@
 }
 .App {
   font-family: "Roboto", sans-serif;
-  height: -moz-available;
-  height: -webkit-fill-available;
   overflow-x: hidden;
 }
